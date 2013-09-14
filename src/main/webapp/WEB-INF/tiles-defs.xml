@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="default.definition" template="/WEB-INF/layouts/default.jsp">
+		<put-attribute name="meta" value="/WEB-INF/views/tiles/meta.jsp" />
+		<put-attribute name="js" value="/WEB-INF/views/tiles/js.jsp" />
+		<put-attribute name="stylesheets" value="/WEB-INF/views/tiles/stylesheets.jsp" />
+		<put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="default.definition" preparer="net.inscope.sandbox.pjax.web.PJAXViewPreparer">
+		<put-attribute name="title" value="pjax-tiles demo" type="string" cascade="true"/>
+		<put-attribute name="content" value="/WEB-INF/views/home.jsp" />
+	</definition>
+	
+	<definition name="lorem_ipsum" extends="default.definition" preparer="net.inscope.sandbox.pjax.web.PJAXViewPreparer">
+		<put-attribute name="title" value="pjax-tiles demo" type="string" cascade="true"/>
+		<put-attribute name="content" value="/WEB-INF/views/lorem_ipsum.jsp" />
+	</definition>
+	
+</tiles-definitions>

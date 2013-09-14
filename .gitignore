@@ -1,6 +1,9 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+/bin
+/war
+*.DS_Store
+/target
+/build
+.project
+.classpath
+/.settings
+.springBeans
