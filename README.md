@@ -6,13 +6,13 @@ Sample web application project that demonstrates how-to use [pjax](https://githu
 
 ## Intro
 
-Back in the days it was common practice for web applications being developed based upon the so-called [MVC paradigm](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
+Back in the days it was common practice for web applications to be developed based upon the so-called [MVC paradigm](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
 All of this used to happen on the server side and often [JSPs](http://en.wikipedia.org/wiki/Java_Server_Pages) were used to render HTML pages, which were sent back 
 to the browser. 
 
 Fast forward to today. Given the evolution of modern web browsers, the rise of mobile applications and 
 the vast adoption of new web standards (HTML5, CSS3 and JavaScript) it became popular to implement the MVC pattern on 
-the clients intself and to communicate with the server only to send or receive data. So-called 
+the clients itself and to communicate with the server only to send or receive data. So-called 
 [Single Page Applications](http://en.wikipedia.org/wiki/Single-page_application) are now considered to be state-of-the-art.
 
 Usually [AJAX](http://en.wikipedia.org/wiki/AJAX) is used to send/retrieve the necessary data from the server and 
@@ -69,7 +69,7 @@ looks as follows:
 </html>
 ```
 
-Nothing to fancy really and it resembles a basic web page layout as commonly seen in [Bootstrap](http://getbootstrap.com/)-based 
+Nothing too fancy really and it resembles a basic web page layout as commonly seen in [Bootstrap](http://getbootstrap.com/)-based 
 web applications. In a nutshell, all we would need to do on the server-side to support [pjax](https://github.com/defunkt/jquery-pjax)
 would be to overwrite this definition and only serve the "content" fragment/tile in case a pjax-request is executed.
 
