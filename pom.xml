@@ -7,7 +7,7 @@
 	<name>pjax-tiles</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<description>A sample Maven-based project demonstrating how-to use PJAX with Apache Tiles.</description>
+	<description>A sample Maven-based web project demonstrating how-to use PJAX with Apache Tiles.</description>
 	
 	<properties>
 		<java-version>1.6</java-version>
