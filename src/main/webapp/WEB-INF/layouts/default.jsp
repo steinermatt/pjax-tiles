@@ -13,8 +13,8 @@
 	<tiles:insertAttribute name="header"/>
 	<div id="pjax-container">
 		<tiles:insertAttribute name="content"/>
-		<tiles:insertAttribute name="footer"/>
 	</div>
+	<tiles:insertAttribute name="footer"/>
 	<tiles:insertAttribute name="js"/>
 </body>
 </html>
